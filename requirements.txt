@@ -1,0 +1,7 @@
+# Complete Python dependency set for the repository.
+# Install this file from the repository root. Component manifests remain
+# usable independently and are included here to keep one canonical entrypoint.
+-r model/requirements.txt
+-r retina_segmentation/requirements.txt
+-r ophthalmic-web/backend/requirements.txt
+

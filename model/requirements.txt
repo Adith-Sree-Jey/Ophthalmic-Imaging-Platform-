@@ -1,0 +1,4 @@
+# Version captured from the working remediation environment on 2026-06-24.
+# timm was previously imported by model/model_multimodal.py but undeclared.
+timm==1.0.25
+

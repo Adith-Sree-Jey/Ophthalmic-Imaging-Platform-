@@ -1,0 +1,31 @@
+# Core deep learning
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+
+# Image processing & augmentations
+albumentations>=1.3.0
+opencv-python>=4.8.0.76
+scikit-image>=0.21.0
+
+# Data science utilities
+scikit-learn>=1.3.0
+matplotlib>=3.7.2
+tqdm>=4.66.1
+numpy>=1.24.3
+pandas>=2.1.0
+
+# Experiment tracking & visualization
+tensorboard>=2.14.0
+
+# Dataset access
+kagglehub>=0.1.7
+
+# Medical Imaging (optional but useful)
+monai>=1.2.0
+streamlit
+torch
+torchvision
+opencv-python
+Pillow
+numpy

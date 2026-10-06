@@ -1,0 +1,1 @@
+"""Image auto-detection package."""

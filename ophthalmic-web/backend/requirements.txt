@@ -1,0 +1,30 @@
+fastapi  # TODO(pin): no exact version was recorded in an existing manifest
+alembic  # TODO(pin): no exact version was recorded in an existing manifest
+uvicorn  # TODO(pin): no exact version was recorded in an existing manifest
+ultralytics  # TODO(pin): no exact version was recorded in an existing manifest
+opencv-python  # TODO(pin): no exact version was recorded in an existing manifest
+numpy  # TODO(pin): no exact version was recorded in an existing manifest
+Pillow  # TODO(pin): no exact version was recorded in an existing manifest
+python-jose  # TODO(pin): no exact version was recorded in an existing manifest
+passlib  # TODO(pin): no exact version was recorded in an existing manifest
+reportlab  # TODO(pin): no exact version was recorded in an existing manifest
+pypdf>=3.0.0
+python-multipart  # TODO(pin): no exact version was recorded in an existing manifest
+python-dotenv  # TODO(pin): no exact version was recorded in an existing manifest
+huggingface_hub  # TODO(pin): no exact version was recorded in an existing manifest
+pyodbc  # TODO(pin): no exact version was recorded in an existing manifest
+sqlalchemy  # TODO(pin): no exact version was recorded in an existing manifest
+pytest  # TODO(pin): no exact version was recorded in an existing manifest
+
+# Cataract model/runtime dependencies folded in from requirements_additions.txt.
+torch>=2.2.0
+torchvision>=0.17.0
+matplotlib>=3.7.2
+scikit-learn>=1.3.0
+seaborn  # TODO(pin): no version was recorded in an existing manifest
+
+# MedGemma runtime dependencies. Exact versions were captured from the working
+# remediation environment on 2026-06-24; these are evidence-backed, not guesses.
+transformers==5.2.0
+accelerate==1.12.0
+bitsandbytes==0.49.2

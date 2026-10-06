@@ -1,0 +1,91 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Private data and clinical artifacts
+data/
+Data/
+Data_Cropped/
+metadata/
+metadata/*.csv
+autoDetect/dataset/
+Sample_image/
+output/
+**/output/
+**/temp/
+glaucoma/data/
+**/reports/
+**/__job_test_reports/
+
+# Runtime/generated output folders, while allowing reviewed private checkpoints
+**/outputs/logs/
+**/outputs/predictions/
+**/outputs/visuals/
+**/outputs/eval_plots/
+
+# Generated reports and tabular clinical metadata
+*.pdf
+*.csv
+
+# Oversized checkpoints excluded from git/GitHub 100 MB limit
+ophthalmic-web/checkpoints/best_acc_model.pth
+ophthalmic-web/checkpoints/best_qwk_model.pth
+
+# Logs and runtime files
+*.log
+*.err.log
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+.venv/
+.venv-*/
+venv/
+
+# Node/frontend
+node_modules/
+dist/
+coverage/
+.vite/
+
+# Archives and local shortcuts
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.lnk
+
+# Internal audit/inventory files
+PUBLICATION_AUDIT.md
+
+# Unreviewed model artifacts must never enter a public source repository
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.dcm
+*.xlsx
+*.xls
+*.parquet
+/public-release/
